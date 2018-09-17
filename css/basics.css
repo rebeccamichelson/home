@@ -17,3 +17,9 @@ body {
 .w3-half img:hover {
 	opacity:1
 }
+
+.award_image {
+	float: left;
+	width: 100px;
+	margin: 0px 15px 0px 0px;
+}
