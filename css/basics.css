@@ -27,3 +27,10 @@ body {
 .my_award {
 	overflow: auto;
 }
+
+#headshot {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
