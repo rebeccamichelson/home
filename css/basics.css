@@ -42,3 +42,22 @@ body {
 #sidebar_info {
 	text-align: center;
 }
+
+.my_project {
+	overflow: auto;
+	margin:15px;
+}
+
+.project_image {
+	float: left;
+	height: 100%;
+	width: 100px;
+	margin: 15px 15px 15px 0px;
+}
+
+#smartphotog_img {
+	height: 100%;
+	width: 600px;
+	float:left;
+	margin: 15px 15px 15px 0px;
+}
