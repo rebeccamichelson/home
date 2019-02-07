@@ -66,3 +66,11 @@ body {
 .centered_paragraph {
 	text-align: center;
 }
+
+#empathy_img {
+	height: 100%;
+	width: 33%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
