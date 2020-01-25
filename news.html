@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Alannah Oleson | PhD Student, University of Washington</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/basics.css">
+<link rel="icon" href="./images/greyLogo_5ptrect.png">
+<script src="js/basics.js"></script>
+
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+
+  <div class="w3-container">
+  	<img id="headshot" class="w3-round" src="./images/hs_square.jpeg" alt="Alannah Oleson profile picture">
+    <h3 id="sidebar_name"><b>Alannah Oleson</b></h3>
+    <p id="sidebar_info">University of Washington
+    	<br/>
+    	olesona@UW.edu
+    </p>
+  </div>
+
+  <hr style="width:100%;border:1px solid white;margin:auto;margin-bottom:32px;" class="w3-round">
+
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">About</a> 
+    <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">News + Updates</a> 
+    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Projects</a>
+    <a href="#pubs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Publications</a> 
+    <a href="#awards" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Awards + Honors</a>  
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Contact</a>
+  </div>  
+
+  <!-- div class="w3-bar-block">
+	 <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Design + Photography</a>
+  </div -->
+  
+  <div id="social-links" class="w3-bar-block centered_paragraph">
+    <a href="https://medium.com/@OAlannah" target="_blank"><i class="fa fa-medium w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://twitter.com/OAlannah" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://www.linkedin.com/in/aoleson/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://github.com/aoleson" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a> &nbsp;
+    <a href="mailto:olesona@uw.edu" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a> 
+  </div>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Alannah Oleson</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="about">
+    <h1 class="w3-jumbo"><b>HCI + Design + Computing Education.</b></h1>
+    <br/>
+
+  <!-- News + Updates -->
+    <h1 class="w3-xxxlarge w3-text-teal"><b>News + Updates.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+    <ul>
+    	<li>December 2019: My paper on Computing Students' Learning Difficulties in HCI Education was accepted to CHI 2020! I'll head to Honolulu, Hawai'i in April to present our results. [<a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/chi2020_HCILearningDiffs_final_tagged.pdf" target="_blank">Preprint</a>] [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/bits-and-behavior/seven-tips-to-improve-hci-education-fa64db5da4f5?source=friends_link&sk=87c1e34aea8c4776997bb14b1372a8eb" target="_blank">Summary Blog Post</a>]</li>
+    	<li>April 2019: I got a chance to check out the CRA-W Grad Cohort Workshop for women in computing and found a new community and new vision for the future of CS research. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/bits-and-behavior/community-building-at-the-2019-cra-w-grad-cohort-for-women-82143270d508" target="_blank">Trip Report</a>]</li>
+    	<li>Feb 2019: Attended the <a class="w3-text-blue w3-hover-text-blue-gray" href="https://edusummit.ixda.org/" target="_blank">IxDA Education Summit</a> and learned a lot about how design education and computing education can overlap. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/bits-and-behavior/two-days-with-designers-ixda-education-summit-2019-9682a556cb81" target="_blank">Trip Report</a>]</li>
+    	<li>Dec 2018: I wrote up some thoughts on becoming a functional PhD student from a learning sciences perspective. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/@OAlannah/learning-to-think-becoming-a-functional-phd-student-7706f33cf22e" target="_blank">Article</a>]</li>
+    	<li>Aug 2018: Attended <a class="w3-text-blue w3-hover-text-blue-gray" href="https://icer.acm.org/" target="_blank">ICER 2018</a> to present my paper on PCK for teaching inclusive software design. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://dl.acm.org/citation.cfm?id=3230998" target="_blank">Paper</a>]</li>
+    	<li>June 2018: OSU Engineering featured me in a student profile! [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://engineering.oregonstate.edu/uncertain-start-computer-science-major-streaks-top" target="_blank">Article</a>]</li>
+    	<li>May 2018: I was awarded an NSF Graduate Research Fellowship! [<a class="w3-text-blue w3-hover-text-blue-gray" href="http://blogs.oregonstate.edu/eecsnews/2018/05/01/oregon-state-students-recognized-by-nsf-for-outstanding-research/" target="_blank">Article</a>]</li>
+    	<li>Jan 2018: The Computing Research Assocition named me a finalist for their Oustanding Undergraduate Researcher Award! [<a class="w3-text-blue w3-hover-text-blue-gray" href="http://blogs.oregonstate.edu/eecsnews/2018/01/24/student-honored-cra-undergraduate-research/" target="_blank">Article</a>][<a class="w3-text-blue w3-hover-text-blue-gray" href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/" target="_blank">Release</a>]</li>
+    	<li>Oct 2017: Adobe Research awarded me their Women-in-Technology scholarship! [<a class="w3-text-blue w3-hover-text-blue-gray" href="http://blogs.oregonstate.edu/eecsnews/2017/10/08/student-wins-adobe-research-women-in-technology-scholarship/" target="_blank">Article</a>][<a class="w3-text-blue w3-hover-text-blue-gray" href="https://research.adobe.com/scholarship/previous-scholarship-award-winners/" target="_blank">Release</a>]</li>
+    </ul>
+  </div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
