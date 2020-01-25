@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Alannah Oleson | PhD Student, University of Washington</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/basics.css">
+<link rel="icon" href="./images/greyLogo_5ptrect.png">
+<script src="js/basics.js"></script>
+
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+
+  <div class="w3-container">
+  	<img id="headshot" class="w3-round" src="./images/hs_square.jpeg" alt="Alannah Oleson profile picture">
+    <h3 id="sidebar_name"><b>Alannah Oleson</b></h3>
+    <p id="sidebar_info">University of Washington
+    	<br/>
+    	olesona@UW.edu
+    </p>
+  </div>
+
+  <hr style="width:100%;border:1px solid white;margin:auto;margin-bottom:32px;" class="w3-round">
+
+  <div class="w3-bar-block">
+    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">About</a> 
+    <a href="./news.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">News + Updates</a> 
+    <a href="./projects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Projects</a>
+    <a href="./pubs.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Publications</a> 
+    <a href="./awards.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Awards + Honors</a>  
+    <a href="./contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Contact</a>
+  </div>  
+
+  <!-- div class="w3-bar-block">
+	 <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Design + Photography</a>
+  </div -->
+  
+  <div id="social-links" class="w3-bar-block centered_paragraph">
+    <a href="https://medium.com/@OAlannah" target="_blank"><i class="fa fa-medium w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://twitter.com/OAlannah" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://www.linkedin.com/in/aoleson/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://github.com/aoleson" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a> &nbsp;
+    <a href="mailto:olesona@uw.edu" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a> 
+  </div>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Alannah Oleson</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px;margin-bottom:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px">
+    <h1 class="w3-jumbo"><b>Awards + Honors.</b></h1>
+    <hr class="w3-round teal_divider">
+    
+  <!-- Awards -->
+    <div class="my_award">
+      <img class="award_image" src="./images/nsf-logo-200px.gif" alt="National Science Foundation Logo">
+      <div class="award_title w3-large"><b>National Science Foundation Graduate Research Fellow</b></div>
+      <div class="award_details">2018</div>
+      <div class="award_blurb w3-text-grey"><i>Recognizes and supports outstanding graduate students in NSF-supported science, technology, engineering, and mathematics disciplines.</i></div>
+    </div>
+    <br/>
+    <br/>
+
+    <div class="my_award">
+      <img class="award_image" src="./images/cra-logo-square.png" alt="Computing Research Association Logo">
+      <div class="award_title w3-large"><b>Computing Research Association Outstanding Undergraduate Researcher</b></div>
+      <div class="award_details">Finalist, 2018</div>
+      <div class="award_blurb w3-text-grey"><i>Recognizes undergraduate students in North American colleges and universities who show outstanding research potential in an area of computing research.</i></div>
+    </div>
+    <br/>
+    <br/>
+
+    <div class="my_award">
+      <img class="award_image" src="./images/Adobe_Systems_logo.svg" alt="Adobe Systems Inc. Logo">
+      <div class="award_title w3-large"><b>Adobe Research Women-in-Technology Scholarship</b></div>
+      <div class="award_details">2017</div>
+      <div class="award_blurb w3-text-grey"><i>Recognizes outstanding undergraduate and masters female students anywhere in the world who study computer science.</i></div>
+    </div>
+    <br/>
+    <br/>
+
+  </div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
