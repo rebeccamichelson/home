@@ -63,6 +63,12 @@ body {
 	margin-right: auto;
 }
 
+#splash_img {
+    width:33%;
+    float: right;
+	margin: 16px;
+}
+
 .centered_paragraph {
 	text-align: center;
 }
@@ -73,4 +79,15 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#social-links {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.teal_divider {
+    width:50px;
+    border:5px solid teal;
+    margin-bottom:32px
 }
