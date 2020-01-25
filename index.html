@@ -29,17 +29,25 @@
   <hr style="width:100%;border:1px solid white;margin:auto;margin-bottom:32px;" class="w3-round">
 
   <div class="w3-bar-block">
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">About</a> 
-    <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">News + Updates</a> 
-    <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Projects</a>
-    <a href="#pubs" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Publications</a> 
-    <a href="#awards" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Awards + Honors</a>  
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Contact</a>
+    <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">About</a> 
+    <a href="./news.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">News + Updates</a> 
+    <a href="./projects.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Projects</a>
+    <a href="./pubs.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Publications</a> 
+    <a href="./awards.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Awards + Honors</a>  
+    <a href="./contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Contact</a>
   </div>  
 
   <!-- div class="w3-bar-block">
 	 <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-round">Design + Photography</a>
   </div -->
+  
+  <div id="social-links" class="w3-bar-block centered_paragraph">
+    <a href="https://medium.com/@OAlannah" target="_blank"><i class="fa fa-medium w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://twitter.com/OAlannah" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://www.linkedin.com/in/aoleson/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a> &nbsp;
+    <a href="https://github.com/aoleson" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a> &nbsp;
+    <a href="mailto:olesona@uw.edu" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a> 
+  </div>
 
 </nav>
 
@@ -53,320 +61,27 @@
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
+<div class="w3-main" style="margin-left:340px;margin-right:40px;margin-bottom:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="about">
+  <div class="w3-container" style="margin-top:80px">
     <h1 class="w3-jumbo"><b>HCI + Design + Computing Education.</b></h1>
-    <br/>
-
+    <hr class="w3-round teal_divider">
+    
+    <img id="splash_img" src="./images/hci1.png" alt="A sketch of a stick figure person sitting at a desk, writing or drawing. A thought bubble shows they are thinking: bunch of people plus laptop computer equals question mark, intending to signify: humans plus computers equals what?">
+    
   <!-- About -->
-    <h1 class="w3-xxxlarge w3-text-teal"><b>About.</b></h1>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-    	<p>I'm a PhD student in <a class="w3-text-blue w3-hover-text-blue-gray" href="https://ischool.uw.edu/" target="_blank">the Information School at the University of Washington</a>, advised by <a class="w3-text-blue w3-hover-text-blue-gray" href="http://faculty.washington.edu/ajko/" target="_blank">Prof. Amy J. Ko</a> in the Code & Cognition lab. My research interest is in HCI education, particularly how we can leverage the wealth of work from design education (e.g., on perspective-taking, empathy, and creativity) to enable computing students to create <i>inclusive, ethical,</i> and <i>usable</i> software interfaces.</p>
-    	<p>Prior to attending UW, I was a student at Oregon State University advised by <a class="w3-text-blue w3-hover-text-blue-gray" href="http://web.engr.oregonstate.edu/~burnett/" target="_blank">Prof. Margaret Burnett</a>, researching gender-inclusive software as part of the <a class="w3-text-blue w3-hover-text-blue-gray" href="http://gendermag.org/" target="_blank">GenderMag</a> project. I founded <a class="w3-text-blue w3-hover-text-blue-gray" href="https://sites.google.com/site/gendermagteach/" target="_blank">the GenderMag-Teach effort</a> to understand the pedagogical content knowledge that university-level educators develop as they teach their students the principles of inclusive software design.</p>
-    	<p>I am a National Science Foundation (NSF) Graduate Research Fellow and formerly an Adobe Research Women-in-Technology scholar.</p>
-    	<p>Quick links: 
-	    	<a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/AlannahOleson_CV.pdf" target="_blank">My CV (updated January 2020)</a>
-	    	| <a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/@OAlannah" target="_blank">Medium Blog</a> 
-	    	| <a class="w3-text-blue w3-hover-text-blue-gray" href="https://twitter.com/OAlannah" target="_blank">Twitter</a> 	
-    	</p>
-  </div>
-
-  <!-- News + Updates -->
-  <div class="w3-container" id="news" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-teal"><b>News + Updates.</b></h1>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-    <ul>
-    	<li>December 2019: My paper on Computing Students' Learning Difficulties in HCI Education was accepted to CHI 2020! I'll head to Honolulu, Hawai'i in April to present our results. [<a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/chi2020_HCILearningDiffs_final_tagged.pdf" target="_blank">Preprint</a>] [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/bits-and-behavior/seven-tips-to-improve-hci-education-fa64db5da4f5?source=friends_link&sk=87c1e34aea8c4776997bb14b1372a8eb" target="_blank">Summary Blog Post</a>]</li>
-    	<li>April 2019: I got a chance to check out the CRA-W Grad Cohort Workshop for women in computing and found a new community and new vision for the future of CS research. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/bits-and-behavior/community-building-at-the-2019-cra-w-grad-cohort-for-women-82143270d508" target="_blank">Trip Report</a>]</li>
-    	<li>Feb 2019: Attended the <a class="w3-text-blue w3-hover-text-blue-gray" href="https://edusummit.ixda.org/" target="_blank">IxDA Education Summit</a> and learned a lot about how design education and computing education can overlap. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/bits-and-behavior/two-days-with-designers-ixda-education-summit-2019-9682a556cb81" target="_blank">Trip Report</a>]</li>
-    	<li>Dec 2018: I wrote up some thoughts on becoming a functional PhD student from a learning sciences perspective. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/@OAlannah/learning-to-think-becoming-a-functional-phd-student-7706f33cf22e" target="_blank">Article</a>]</li>
-    	<li>Aug 2018: Attended <a class="w3-text-blue w3-hover-text-blue-gray" href="https://icer.acm.org/" target="_blank">ICER 2018</a> to present my paper on PCK for teaching inclusive software design. [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://dl.acm.org/citation.cfm?id=3230998" target="_blank">Paper</a>]</li>
-    	<!--li>June 2018: OSU Engineering featured me in a student profile! [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://engineering.oregonstate.edu/uncertain-start-computer-science-major-streaks-top" target="_blank">Article</a>]</li-->
-    	<!--li>May 2018: I was awarded an NSF Graduate Research Fellowship! [<a class="w3-text-blue w3-hover-text-blue-gray" href="http://blogs.oregonstate.edu/eecsnews/2018/05/01/oregon-state-students-recognized-by-nsf-for-outstanding-research/" target="_blank">Article</a>]</li-->
-    	<!--li>Jan 2018: The Computing Research Assocition named me a finalist for their Oustanding Undergraduate Researcher Award! [<a class="w3-text-blue w3-hover-text-blue-gray" href="http://blogs.oregonstate.edu/eecsnews/2018/01/24/student-honored-cra-undergraduate-research/" target="_blank">Article</a>][<a class="w3-text-blue w3-hover-text-blue-gray" href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/" target="_blank">Release</a>]</li-->
-    	<!--li>Oct 2017: Adobe Research awarded me their Women-in-Technology scholarship! [<a class="w3-text-blue w3-hover-text-blue-gray" href="http://blogs.oregonstate.edu/eecsnews/2017/10/08/student-wins-adobe-research-women-in-technology-scholarship/" target="_blank">Article</a>][<a class="w3-text-blue w3-hover-text-blue-gray" href="https://research.adobe.com/scholarship/previous-scholarship-award-winners/" target="_blank">Release</a>]</li-->
-    </ul>
-  </div>
-
-  <!-- Projects -->
-  <div class="w3-container" id="projects" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Projects.</b></h1>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-
-    <div class="my_project">
-      <img class="project_image" src="./images/bulb.png" alt="A sketch of a bright yellow lightbulb with light rays coming out of it.">
-      <h2 class="project_title">Integrating Design Skills & Practices into Computing Education</h2>
-      <h3>2018 - </h3>
-      <p>Design skills are often used as the "front door" to computing education, motivating students to engage with programming so they can gain computing literacy. However, skills such as protoyping, needfinding, and understanding users are often presented as part of the CS field. This masking of design is a disservice to students, teachers, researchers, and professionals. By recognizing the role that design plays in introductory computing education, we can begin to better understand how computing education and design intertwine to promote computing literacy.</p>
-    </div>
-
-    <div class="my_project">
-      <img class="project_image" src="./images/emp_heart.jpg" alt="A sketch of an orange heart, with an arrow leading into the heart and another leading out.">
-      <h2 class="project_title">Understanding "Useful" Empathy in UX Design</h2>
-      <h3>2018 - </h3>
-      <p>Empathy with target population users is a hot topic in today's UX climate. Under the purported goal of inclusive software interface design, both industry leaders and academic researchers encourage UX designers to empathize with their users. However, empathy is a multidimensional construct. Different aspects of empathy may affect UX designers' abilities to create suitable interfaces for their target populations.</p>
-      <img id="empathy_img" src="./images/emp_chart.png" alt="A hierarchy of empathy dimensions and facets, as reported in Davis 1983 (https://psycnet.apa.org/record/1983-22418-001)">
-      <p> So far, I've conducted interviews with eight UX designers to explore the ways in which they leveraged <i><a class="w3-text-blue w3-hover-text-blue-gray" href="https://psycnet.apa.org/record/1983-22418-001" target="_blank">cognitive empathy</a></i> - understanding users' points of view - and <i><a class="w3-text-blue w3-hover-text-blue-gray" href="https://psycnet.apa.org/record/1983-22418-001" target="_blank">affective empathy</a></i> - identifying with users through emotion - in their design processes. In-progress work on this project is digging deeper into the differences in dimensional empathy between various populations of UX designers and the general population. Since the colloquial definition of empathy aligns better with affective empathy, these findings indicate a need to better scope discourse around empathy in the UX community to avoid misinterpretation, especially by novice or student UX designers. </p>
-    </div>
-
-    <br/>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-
-    <div class="my_project">
-      <img class="project_image" src="./images/teaching-311348_960_720.png" alt="Stylized woman writing on chalkboard">
-      <h2 class="project_title">GenderMag-Teach</h2>
-      <h3>2017 - 2018</h3>
-      <p>The GenderMag-Teach community provides support and resources for those who are interested in teaching gender-inclusive software design to their classes using the GenderMag method.</p>
-      <p class="centered_paragraph">[<a class="w3-text-blue w3-hover-text-blue-gray" href="https://sites.google.com/site/gendermagteach/" target="_blank">GenderMag-Teach Community Wiki</a>] &nbsp; &nbsp; [<a class="w3-text-blue w3-hover-text-blue-gray" href="https://groups.google.com/forum/#!forum/gendermag-teach" target="_blank">GenderMag-Teach Google Group</a>]</p>
-      <p>Motivated by the observation that those who are unfamiliar with gender-inclusive interface design may face difficulties teaching the concepts to their students, we set out to discover the <a class="w3-text-blue w3-hover-text-blue-gray" href="https://www.narst.org/publications/research/pck.cfm" target="_blank">pedagogical content knowledge (PCK)</a> that higher-ed teachers need to teach the GenderMag method effectively.</p>
-      <p>Toward this end, I conducted an action research study with the help of nine teacher-researchers across eight U.S. universities who collectively taught gender-inclusive interface design to more than 400 students. Through interviews with the teachers themselves and in-class observations, I identified 11 pieces of PCK for teaching gender-inclusive software design. I hope to evalute these PCKs in future work and determine which are the most crucial for educators to embrace as they teach the principles of ethical software interfaces. This community is still active and growing as more and more educators become interested in teaching gender-inclusive software design.</p>
-      <p class="w3-large"><b>Publications:</b>
-      	<ul>
-      		<li>ACM ICER'18: <a class="w3-text-blue w3-hover-text-blue-gray" href="https://dl.acm.org/citation.cfm?id=3230998" target="_blank">Pedagogical Content Knowledge for Teaching Inclusive Design</a></li>
-      		<li><a class="w3-text-blue w3-hover-text-blue-gray" href="https://ir.library.oregonstate.edu/downloads/q524jv097">Oregon State University Honors Thesis</a> of the same name</li>
-      	</ul>
-      </p>
-    </div>
-
-    <br/>
-
-    <div class="my_project">
-      <img class="project_image" src="./images/Adobe_Systems_logo.svg" alt="Adobe Systems Incorporated Logo">
-      <h2 class="project_title">SmartPhotography</h2>
-      <h3>2017 - 2018</h3>
-      <p>With the advent of smartphones, anyone can take selfies and portraits quickly and cheaply. However, not everyone is a professional photographer. Most users are not trained in lighting and pose principles that play into portraits. The result of this is low-quality selfies and portraits. Pro photographers follow known portraiture setups to produce high-quality pictures. Can we enable average people, armed only with their phones, to mimic these professional setups to produce high-quality selfies?</p>
-      <p>To explore this question, I designed and conducted a formative user study to learn our target demographic's motivations and attitudes toward smartphone photography. Then, informed by the study, we created a proof-of-concept augmented reality iOS app to guide users to replicate portraiture setups. The resulting app reads in the lighting in the user's environment with the front-facing camera and directs the user to position themselves to achieve optimal lighting, then leverages gamification principles to "score" the user on how closely they achieved their target setup.</p>
-      <p>In collaboration with Adobe Research's Creative Intelligence Lab. Mentors: <a class="w3-text-blue w3-hover-text-blue-gray" href="https://research.adobe.com/person/jingwan-lu/" target="_blank">Jingwan (Cynthia) Lu</a>, <a class="w3-text-blue w3-hover-text-blue-gray" href="https://research.adobe.com/person/jose-echevarria/" target="_blank">Jose Echevarria</a>, & <a class="w3-text-blue w3-hover-text-blue-gray" href="https://research.adobe.com/person/radomir-mech/" target="_blank">Radomir Mech</a>. Interface tech is patent pending.</p>
-      <img id="smartphotog_img" src="./images/smartphotog.png" alt="SmartPhotography app interface comparison with correct lighting and incorrect lighting.">
-    </div>
-
-    <br/>
-
-    <div class="my_project">
-      <img class="project_image" src="./images/gm_profile_pic.png" alt="Headshots of four people arranged in a square">
-      <h2 class="project_title">The GenderMag Project</h2>
-      <h3>2016 - 2018</h3>
-      <p>Description available soon.</p>
-      <p class="w3-large"><b>Publications:</b>
-      	<ul>
-      		<li>ACM ICER'18: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/semiAutomatingOrNot-cameraReady.pdf" target="_blank">Semi-Automating (or not) a Socio-Technical Method for Socio-Technical Systems</a></li>
-      		<li>IEEE VL/HCC'18 workshop: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/vlhcc18-workshopPaper-problemSolving.pdf" target="_blank">Gender Biases in Software for Problem-Solving</a>
-      		</li>
-      		<li>Chapter in <i>New Perspectives in End-User Development</i>: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/EUDbook2-2ndEd-theory+EUSE-distrib.pdf" target="_blank">Toward Theory-Based End-User Software Engineering</a></li>
-      		<li>ACM CHI'17: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/chi17-GenderMagPersonas-vs-stereotypes.pdf" target="_blank">Gender-Inclusiveness Personas vs. Stereotyping: Can We Have it Both Ways?</a></li>
-      		<li>IEEE VL/HCC'16: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/vlhcc16-GenderMag.pdf" target="_blank">GenderMag Experiences in the Field: The Whole, the Parts, and the Workload</a></li>
-      	</ul>
-      </p>
-    </div>
-
-    <br/>
-
-    <div class="my_project">
-      <img class="project_image" src="./images/unstuckerator.png" alt="Stylized woman writing on chalkboard">
-      <h2 class="project_title">The Idea Garden</h2>
-      <h3>2015 - 2016</h3>
-      <p>Description available soon.</p>
-      <p class="w3-large"><b>Publications:</b>
-      	<ul>
-      		<li>Journal of Visual Languages and Computing: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/generalized-principles.pdf" target="_blank">General Principles for a Generalized Idea Garden</a></li>
-      		<li>ACM CHI'16: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/p1449-loksa.pdf" target="_blank">Programming, Problem Solving, and Self-Awareness: Effects of Explicit Guidance</a>
-      		</li>
-      		<li>Chapter in <i>New Perspectives in End-User Development</i>: <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/EUDbook2-2ndEd-theory+EUSE-distrib.pdf" target="_blank">Toward Theory-Based End-User Software Engineering</a></li>
-      	</ul>
-      </p>
-    </div>
-
-  </div>
-  
-  <!-- Pubs -->
-  <div class="w3-container" id="pubs" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Publications.</b></h1>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-
-    <h2>Papers</h2>
-
-    <h3>2020</h3>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/chi2020_HCILearningDiffs_final_tagged.pdf" target="_blank"><b>Computing Students' Learning Difficulties in HCI Education</b></a></div>
-      <div class="paper_authors w3-large"><span class="w3-text-teal"><b>Alannah Oleson</b></span>, Meron Solomon, Amy J. Ko (2020)</div>
-      <div class="paper_details">ACM Conference on Human Factors in Computing Systems (CHI), to appear.</div>
-      <div class="paper_blurb w3-text-grey"><i>Investigates the challenges that computing students face in learning HCI design, finding challenges in understanding design as distinct from engineering, understanding design methods, finding resources to support design, interpreting feedback, scoping design problems, choosing between alternatives, and designing for diversity.</i></div>
-    </div>
-    <br/>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/Swearngin_Scout_CHI_2020_v19.pdf" target="_blank"><b>Scout: Rapid Exploration of Interface Layout Alternatives through High-Level Design Constraints</b></a></div>
-      <div class="paper_authors w3-large">Amanda Swearngin, Chenglong Wang, <span class="w3-text-teal"><b>Alannah Oleson</b></span>, James Fogarty, Amy J. Ko (2020)</div>
-      <div class="paper_details">ACM Conference on Human Factors in Computing Systems (CHI), to appear.</div>
-      <div class="paper_blurb w3-text-grey"><i>Presents a system to support designers ideation of user interface layouts, allowing designers to provide high-level preferences, obtain a set of layouts that meet those preferences, provide feedback on those preferences, and iteratively converge towards preferred layouts. An evaluation showed that designers who used Scout accelerated ideation and found more diverse designs that designers without it.</i></div>
-    </div>
-    <br/>
-
-    <h3>2018</h3>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/icer18-GenderMag-pckInclusiveDesign-asPrinted.pdf" target="_blank"><b>Pedagogical Content Knowledge for Teaching Inclusive Design</b></a></div>
-      <div class="paper_authors w3-large"><span class="w3-text-teal"><b>Alannah Oleson</b></span>, Christopher Mendez, Zoe Steine-Hanson, Claudia Hilderbrand, Christopher Perdriau, Margaret Burnett, Amy J. Ko (2018)</div>
-      <div class="paper_details">ACM International Computing Education Research Conference (ICER), 69-77.</div>
-      <div class="paper_blurb w3-text-grey"><i>Through observations and interviews with 9 teacher-researchers at 8 U.S. universities, this paper identifies 11 pieces of pedagogical content knowledge for teaching inclusive software design in higher education, including strategies for anticipating and addressing resistance, modeling and scaffolding perspective-taking, and tailoring instruction to students' prior beliefs.</i></div>
-    </div>
-    <br/>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/semiAutomatingOrNot-cameraReady.pdf" target="_blank"><b>Semi-Automating (or not) a Socio-Technical Method for Socio-Technical Systems</b></a></div>
-      <div class="paper_authors w3-large">Christopher Mendez, Zoe Steine Hanson, <span class="w3-text-teal"><b>Alannah Oleson</b></span>, Amber Horvath, Charles Hill, Claudia Hilderbrand, Anita Sarma, Margaret Burnett (2018)</div>
-      <div class="paper_details">IEEE Symposium on Visual Languages and Human-Centric Computing, to appear.</i></div>
-      <div class="paper_blurb w3-text-grey"><i>Through a field study and a controlled 92-participant study, discusses the benefits and drawbacks of semi-automating parts of the software inspection process from the perspective of cognitive load.</i></div>
-    </div>
-    <br/>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/vlhcc18-workshopPaper-problemSolving.pdf" target="_blank"><b>Gender Biases in Software for Problem-Solving</b></a></div>
-      <div class="paper_authors w3-large">Margaret Burnett, Anita Sarma, Christopher Mendez, <span class="w3-text-teal"><b>Alannah Oleson</b></span>, Claudia Hilderbrand, Zoe Steine-Hanson, Amy J. Ko (2018)</div>
-      <div class="paper_details">Workshop at VL/HCC 2018: Designing Technologies to Support Human Problem Solving</div>
-      <div class="paper_blurb w3-text-grey"><i>Position paper to call attention to how software can be biased against certain problem-solving styles, espcially those favored by women, and how to address these issues from the perspective of the GenderMag Method (<a href="http://gendermag.org/" target="_blank">http://gendermag.org</a>).</i></div>
-    </div>
-    <br/>
-
-    <h3>2017</h3>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/EUDbook2-2ndEd-theory+EUSE-distrib.pdf" target="_blank"><b>Toward Theory-Based End-User Software Engineering</b></a></div>
-      <div class="paper_authors w3-large">Margaret Burnett, Todd Kulesza, <span class="w3-text-teal"><b>Alannah Oleson</b></span>, Shannon Ernst, Laura Beckwith, Jill Cao, William Jernigan, Valentina Grigoreanu (2017)</div>
-      <div class="paper_details">in <i>New Perspectives in End-User Development (F. Paterno and V. Wulf, eds.)</i></div>
-      <div class="paper_blurb w3-text-grey"><i>The field of end-user software engineering (EUSE) has grown to include a large body of literature since the early 2000s, but it can be difficult to build upon projects in the absence of cross-cutting theoretical foundations. We advocate for stronger theoretical foundations and present examples of EUSE projects that sucessfully went beyond individual tools to produce general methods and principles.</i></div>
-    </div>
-    <br/>
-
-    <div class="my_paper">
-      <span class="paper_award w3-teal w3-round">&nbsp; &#9733; &nbsp; Best Paper Honorable Mention &nbsp;</span>
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/chi17-GenderMagPersonas-vs-stereotypes.pdf" target="_blank"><b>Gender-Inclusiveness Personas vs. Stereotyping: Can We Have it Both Ways?</b></a></div>
-      <div class="paper_authors w3-large">Charles Hill, Maren Haag, <span class="w3-text-teal"><b>Alannah Oleson</b></span>, Chris Mendez, Nicola Marsden, Anita Sarma, Margaret Burnett (2017)</div>
-      <div class="paper_details">ACM Conference on Human Factors in Computing Systems (CHI), 6658-6671.</div>
-      <div class="paper_blurb w3-text-grey"><i>Using multiple profile pictures on one persona may expand product designers' consideration of multiple genders without harming persona engagement or advancing harmful gender stereotypes.</i></div>
-    </div>
-    <br/>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/generalized-principles.pdf" target="_blank"><b>General Principles for a Generalized Idea Garden</b></a></div>
-      <div class="paper_authors w3-large">William Jernigan, Amber Horvath, Michael Lee, Margaret Burnett, Taylor Cuilty, Sandeep Kuttal, Anicia Peters, Irwin Kwan, Faezeh Bahmani, Amy J. Ko, Christopher J. Mendez, <span class="w3-text-teal"><b>Alannah Oleson</b></span> (2017)</div>
-      <div class="paper_details">Journal of Visual Languages and Computing, Vol. 39, 51-65.</div>
-      <div class="paper_blurb w3-text-grey"><i>End-user programmers who are not necessarily interested in learning programming can benefit from a just-in-time help system called the Idea Garden, which is built on the presented generalized architecture.</i></div>
-    </div>
-    <br/>
-
-    <h3>2016</h3>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/vlhcc16-GenderMag.pdf" target="_blank"><b>GenderMag Experiences in the Field: The Whole, the Parts, and the Workload</b></a></div>
-      <div class="paper_authors w3-large">Charles Hill, Shannon Ernst, <span class="w3-text-teal"><b>Alannah Oleson</b></span>, Amber Horvath, Margaret Burnett (2016)</div>
-      <div class="paper_details">IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC), 199-207.</div>
-      <div class="paper_blurb w3-text-grey"><i>Software practitioners who use the GenderMag method to identify gender-inclusiveness issues in their software interfaces engage with the GenderMag personas at a high rate, but may also detour and introduce recording errors during GenderMag sessions.</i></div>
-    </div>
-    <br/>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large w3-text-blue w3-hover-text-blue-gray"><a href="./papers/p1449-loksa.pdf" target="_blank"><b>Programming, Problem Solving, and Self-Awareness: Effects of Explicit Guidance</b></a></div>
-      <div class="paper_authors w3-large">Dastyni Loksa, Amy J. Ko, William Jernigan, <span class="w3-text-teal"><b>Alannah Oleson</b></span>, Christopher J. Mendez, Margaret M. Burnett (2016)</div>
-      <div class="paper_details">ACM Conference on Human Factors in Computing Systems (CHI), 1449-1461.</div>
-      <div class="paper_blurb w3-text-grey"><i>Teaching novice programmers explicit problem-solving strategies can positively impact their productivity, self-efficacy, independence, and growth mindset development.</i></div>
-    </div>
-
-    <br/>
-    <br/>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-
-    <h2>Patents</h2>
-
-    <div class="my_paper">
-      <div class="paper_title w3-large"><b>Smart Guide to Capture Digital Images that Align with a Target Image Model</b></div>
-      <div class="paper_authors w3-large"><span class="w3-text-teal"><b>Alannah Oleson</b></span>, Radomir Mech, Jose Echevarria, Cynthia (Jingwan) Lu</div>
-      <div class="paper_details">P7429-US 20030.152, Filed Feb. 2018</div>
-      <div class="paper_blurb w3-text-grey"><i>Motivated by the observation that most smartphone photographers are not trained in portrait photography techniques, this system provides a model for analyzing a device's camera feed as a picture is being taken and guiding the user to achieve a higher-quality selfie or portrait.</i></div>
-    </div>
-
-
-  </div>
-
-  <!-- Awards -->
-  <div class="w3-container" id="awards" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Awards + Honors.</b></h1>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-
-    <div class="my_award">
-      <img class="award_image" src="./images/nsf-logo-200px.gif" alt="National Science Foundation Logo">
-      <div class="award_title w3-large"><b>National Science Foundation Graduate Research Fellow</b></div>
-      <div class="award_details">2018</div>
-      <div class="award_blurb w3-text-grey"><i>Recognizes and supports outstanding graduate students in NSF-supported science, technology, engineering, and mathematics disciplines.</i></div>
-    </div>
-    <br/>
-    <br/>
-
-    <div class="my_award">
-      <img class="award_image" src="./images/cra-logo-square.png" alt="Computing Research Association Logo">
-      <div class="award_title w3-large"><b>Computing Research Association Outstanding Undergraduate Researcher</b></div>
-      <div class="award_details">Finalist, 2018</div>
-      <div class="award_blurb w3-text-grey"><i>Recognizes undergraduate students in North American colleges and universities who show outstanding research potential in an area of computing research.</i></div>
-    </div>
-    <br/>
-    <br/>
-
-    <div class="my_award">
-      <img class="award_image" src="./images/Adobe_Systems_logo.svg" alt="Adobe Systems Inc. Logo">
-      <div class="award_title w3-large"><b>Adobe Research Women-in-Technology Scholarship</b></div>
-      <div class="award_details">2017</div>
-      <div class="award_blurb w3-text-grey"><i>Recognizes outstanding undergraduate and masters female students anywhere in the world who study computer science.</i></div>
-    </div>
-    <br/>
-    <br/>
-
-  </div>
-
-  
-  <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid teal" class="w3-round">
-    <p>
-      <h3>Email: <a href="mailto:olesona@uw.edu" target="_blank">olesona@UW.edu</a></h3>
-      Email is the best way to get in touch with me.  
-    </p>
-    <p>
-      <h3>Check out my blog: <a href="https://medium.com/@OAlannah" target="_blank">@OAlannah on Medium</a></h3>
-      I write about the grad school life and post trip reports about conferences and workshops I go to. Sometimes I'll post about my research.  
-    </p>
-    <p>
-      <h3>Online profiles</h3>
-      <ul>
-        <li>Twitter: <a href="https://twitter.com/OAlannah" target="_blank">@OAlannah</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/aoleson/" target="_blank">aoleson</a></li>
-        <li>GitHub: <a href="https://github.com/aoleson" target="_blank">aoleson</a></li>
-        <li><a href="https://scholar.google.com/citations?user=boWvsg8AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-      </ul>
-    </p>
-    <p>
-      <h3>Office</h3>
-      <a href="http://www.washington.edu/maps/#!/mgh" target="_blank">Mary Gates Hall</a> 015, University of Washington
+    <p>I'm a PhD student in <a class="w3-text-blue w3-hover-text-blue-gray" href="https://ischool.uw.edu/" target="_blank">the Information School at the University of Washington</a>, advised by <a class="w3-text-blue w3-hover-text-blue-gray" href="http://faculty.washington.edu/ajko/" target="_blank">Prof. Amy J. Ko</a> in the Code & Cognition lab. My research interest is in HCI education, particularly how we can leverage the wealth of work from design education (e.g., on perspective-taking, empathy, and creativity) to enable computing students to create <i>inclusive, ethical,</i> and <i>usable</i> software interfaces.</p>
+    <p>Prior to attending UW, I was a student at Oregon State University advised by <a class="w3-text-blue w3-hover-text-blue-gray" href="http://web.engr.oregonstate.edu/~burnett/" target="_blank">Prof. Margaret Burnett</a>, researching gender-inclusive software as part of the <a class="w3-text-blue w3-hover-text-blue-gray" href="http://gendermag.org/" target="_blank">GenderMag</a> project. I founded <a class="w3-text-blue w3-hover-text-blue-gray" href="https://sites.google.com/site/gendermagteach/" target="_blank">the GenderMag-Teach effort</a> to understand the pedagogical content knowledge that university-level educators develop as they teach their students the principles of inclusive software design.</p>
+    <p>I am a National Science Foundation (NSF) Graduate Research Fellow and formerly an Adobe Research Women-in-Technology scholar.</p>
+    <p>Quick links: 
+        <a class="w3-text-blue w3-hover-text-blue-gray" href="./papers/AlannahOleson_CV.pdf" target="_blank">My CV (updated January 2020)</a>
+        | <a class="w3-text-blue w3-hover-text-blue-gray" href="https://medium.com/@OAlannah" target="_blank">Medium Blog</a> 
+        | <a class="w3-text-blue w3-hover-text-blue-gray" href="https://twitter.com/OAlannah" target="_blank">Twitter</a> 	
     </p>
   </div>
 
 <!-- End page content -->
-</div>
-
-<!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
-	<p class="w3-right">
-		<a href="https://medium.com/@OAlannah" target="_blank"><i class="fa fa-medium w3-hover-opacity"></i></a> &nbsp;
-		<a href="https://twitter.com/OAlannah" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a> &nbsp;
-		<a href="https://www.linkedin.com/in/aoleson/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a> &nbsp;
-    <a href="https://github.com/aoleson" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a> &nbsp;
-    <a href="mailto:olesona@uw.edu" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a> &nbsp;
-		&nbsp; &nbsp;
-		&copy; Alannah Oleson 2020
-	</p>
 </div>
 
 </body>

@@ -63,6 +63,12 @@ body {
 	margin-right: auto;
 }
 
+#splash_img {
+    width:33%;
+    float: right;
+	margin: 16px;
+}
+
 .centered_paragraph {
 	text-align: center;
 }
