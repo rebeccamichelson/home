@@ -1,2 +1,2 @@
 # personal-website
-Alannah's personal website and related materials.
+Rebecca's personal website and related materials.
